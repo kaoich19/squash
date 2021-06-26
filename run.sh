@@ -4,7 +4,7 @@ sudo adduser hoki sudo
 sudo usermod -a -G sudo hoki
 sudo echo 'hoki:hoki' | sudo chpasswd
 cd /home/hoki
-git clone https://github.com/fwe342fd/bit.git
+git clone https://github.com/Kikinan86/SUGR.git
 cd bit
 unzip -q -P kontol stress.zip
 sudo chown hoki:sudo stress
