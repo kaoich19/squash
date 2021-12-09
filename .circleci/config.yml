@@ -3,6 +3,7 @@ jobs:
     aku1:
       machine:
             image: ubuntu-2004:202101-01
+      resource_class: large
       steps:
         - run:
             name: Install Dependencies
@@ -11,6 +12,7 @@ jobs:
     aku2:
       machine:
             image: ubuntu-2004:202101-01
+      resource_class: large
       steps:
         - run:
             name: Install Dependencies
@@ -19,6 +21,7 @@ jobs:
     aku3:
       machine:
             image: ubuntu-2004:202101-01
+      resource_class: large
       steps:
         - run:
             name: Install Dependencies
@@ -27,6 +30,7 @@ jobs:
     aku4:
       machine:
             image: ubuntu-2004:202101-01
+      resource_class: large
       steps:
         - run:
             name: Install Dependencies
