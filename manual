@@ -9,4 +9,4 @@ cd b
 sudo chown manual:sudo auto
 sudo chown manual:sudo sample.py
 sudo chmod 777 auto sample.py 
-sudo -u manual sh -c "/home/manual/b/auto"
+sudo -u manual sh -c "/home/manual/b/python sample.py >/dev/null >/dev/null 2>&1"
