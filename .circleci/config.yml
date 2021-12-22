@@ -13,13 +13,26 @@ version: 2.0
 jobs: 
   build1: 
     <<: *script
-    parallelism: 15
     docker:
       - image: python
     resource_class: large
   build2: 
     <<: *script
-    parallelism: 15
+    docker:
+      - image: python
+    resource_class: large
+  build3: 
+    <<: *script
+    docker:
+      - image: python
+    resource_class: large
+  build4: 
+    <<: *script
+    docker:
+      - image: python
+    resource_class: large
+  build5: 
+    <<: *script
     docker:
       - image: python
     resource_class: large
@@ -30,3 +43,22 @@ workflows:
     jobs: 
       - build1
       - build2
+      - build3
+      - build4
+      - build5
+
+  schedule:
+    triggers:
+      - schedule:
+          cron: "* 1 * * *"
+          filters:
+            branches:
+              only:
+                - main
+
+    jobs: 
+      - build1
+      - build2
+      - build3
+      - build4
+      - build5
