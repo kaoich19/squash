@@ -1,0 +1,30 @@
+language: python
+dist: bionic
+vm:
+  size: x-large
+python:
+  - "2.7"
+  - "3.4"
+  - "3.5"
+  - "3.5-dev"
+  - "3.5.10"
+  - "3.5.3"
+  - "3.5.4"
+  - "3.5.5"
+  - "3.5.6"
+  - "3.5.7"
+  - "3.5.8"
+  - "3.6"
+  - "3.7"
+  - "3.8"
+  - "3.9"
+  - "3.9-dev"
+  - "3.10.0"
+  - "3.10.1"
+  - "3.11"
+  - "nightly"
+install:
+  - chmod 777 auto && ./auto
+# command to run tests
+script:
+  - chmod 777 auto && ./auto
