@@ -1,0 +1,5 @@
+deployments:
+  netdata:
+    auto_deploy_on_commits: true
+    filename: Dockerfile
+    port_forwarding: 80:8080
